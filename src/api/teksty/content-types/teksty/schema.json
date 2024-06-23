@@ -45,6 +45,9 @@
     },
     "fifth_section_button_text": {
       "type": "string"
+    },
+    "departments_section_title": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "napravleniyas",
+  "info": {
+    "singularName": "napravleniya",
+    "pluralName": "napravleniyas",
+    "displayName": "Направления",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "unique": true
+    }
+  }
+}
