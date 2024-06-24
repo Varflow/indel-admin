@@ -23,14 +23,6 @@
       "target": "api::pod-kategoriya.pod-kategoriya",
       "mappedBy": "category"
     },
-    "section": {
-      "type": "enumeration",
-      "enum": [
-        "ingredients",
-        "application"
-      ],
-      "required": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -54,6 +46,13 @@
         "preset": "toolbarBaloon"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "pharm",
+        "food"
+      ]
     }
   }
 }
