@@ -48,6 +48,15 @@
     },
     "departments_section_title": {
       "type": "string"
+    },
+    "career_section_title": {
+      "type": "string"
+    },
+    "career_section_text": {
+      "type": "richtext"
+    },
+    "career_section_button_text": {
+      "type": "string"
     }
   }
 }

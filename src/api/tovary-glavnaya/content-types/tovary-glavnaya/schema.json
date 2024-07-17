@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tovary_glavnayas",
+  "info": {
+    "singularName": "tovary-glavnaya",
+    "pluralName": "tovary-glavnayas",
+    "displayName": "Товары (Главная)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
