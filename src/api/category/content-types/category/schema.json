@@ -53,6 +53,9 @@
         "pharm",
         "food"
       ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
