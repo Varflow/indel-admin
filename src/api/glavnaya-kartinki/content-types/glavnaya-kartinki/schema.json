@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "glavnaya_kartinkis",
+  "info": {
+    "singularName": "glavnaya-kartinki",
+    "pluralName": "glavnaya-kartinkis",
+    "displayName": "Главная. Картинки"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
