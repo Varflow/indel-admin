@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Карьера",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_text": {
+      "type": "text",
+      "required": true
+    },
+    "section_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "workua_link": {
+      "type": "string"
+    },
+    "rabotaua_link": {
+      "type": "string"
+    },
+    "banner_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "section_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "section_title": {
+      "type": "text"
+    }
+  }
+}
