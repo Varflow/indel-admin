@@ -10,50 +10,94 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "text",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "first_block_title": {
       "type": "text",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "second_block_title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "third_block_title": {
       "type": "text",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "our_team_title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "first_block_text": {
       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "toolbar"
       },
       "required": true,
-      "customField": "plugin::ckeditor5.CKEditor"
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "second_block_text": {
       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "toolbar"
       },
       "required": true,
-      "customField": "plugin::ckeditor5.CKEditor"
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "third_block_text": {
       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "toolbar"
       },
       "required": true,
-      "customField": "plugin::ckeditor5.CKEditor"
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "first_image": {
       "type": "media",
@@ -80,11 +124,11 @@
       ]
     },
     "main_image": {
+      "type": "media",
+      "multiple": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
