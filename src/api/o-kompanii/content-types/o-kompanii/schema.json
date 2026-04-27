@@ -64,7 +64,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "toolbar"
+        "preset": "defaultHtml"
       },
       "required": true,
       "pluginOptions": {
@@ -77,7 +77,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "toolbar"
+        "preset": "defaultHtml"
       },
       "required": true,
       "pluginOptions": {
@@ -90,7 +90,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "toolbar"
+        "preset": "defaultHtml"
       },
       "required": true,
       "pluginOptions": {

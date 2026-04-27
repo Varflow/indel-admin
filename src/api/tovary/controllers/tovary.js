@@ -21,9 +21,9 @@ module.exports = createCoreController("api::tovary.tovary", ({ strapi }) => ({
       where: {
         $and: [
           queryId,
-        //   {
-        //     locale,
-        //   },
+          {
+            locale,
+          },
         ],
       },
       populate,

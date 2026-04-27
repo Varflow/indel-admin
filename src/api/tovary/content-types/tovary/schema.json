@@ -52,7 +52,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "toolbar"
+        "preset": "defaultHtml"
       },
       "pluginOptions": {
         "i18n": {
@@ -64,7 +64,7 @@
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "preset": "toolbar"
+        "preset": "defaultHtml"
       },
       "pluginOptions": {
         "i18n": {
